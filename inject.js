@@ -22,7 +22,7 @@ const vm = require('vm');
 const crypto = require('crypto');
 
 const HOST = '127.0.0.1';
-const PORT = 9223;
+const PORT = 9222;
 
 const SCAN_INTERVAL = 1000;           // 已连接后的热更新扫描间隔
 const CONNECT_RETRY_INTERVAL = 100;   // 未连接时每 100ms 检查一次 CDP
